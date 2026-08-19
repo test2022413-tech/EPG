@@ -1,3 +1,4 @@
+<tv generator-info-name="EPG Service generator xmltv" generator-info-url="http://www.test">
 <channel id="70">\
 <display-name lang="ru">TV test</display-name>\
 <icon src="http://xml-epgservice.cdnvideo.ru/EPGService/hs/xmldata/3ece3c81-e875-4057-ab9d-0a6ca5ae6dd/logo/000002882.png"/>\
