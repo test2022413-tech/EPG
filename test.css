@@ -1,49 +1,35 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-html, body {
-    margin: 0;
-    padding: 0;
-    color: red;
-}
-
-body {
-    display: table;
-    width: 100%;
-}
-
+```css
 .container {
-    display: table-cell;
-    vertical-align: middle;
+    background-color: #f5f7fa;
+    color: #333333;
 }
+
 .content {
-    display: table;
-    table-layout: fixed;
-    max-width: 566px;
-    border-spacing: 24px 24px;
-    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #e0e4e8;
 }
+
 .row {
-    display: table-row;
+    border-bottom: 1px solid #e0e4e8;
 }
+
+.row:last-child {
+    border-bottom: none;
+}
+
 .left {
-    display: table-cell;
-    max-width: 266px;
-    white-space: normal;
-
-    word-wrap: break-word;
-    overflow: hidden;
-
-    text-overflow: ellipsis;
-    word-break: normal;
-    overflow-wrap: normal;
-
+    color: #1f4e79;
 }
+
 .right {
-    /* 1 */
-    display: table-cell;
-    word-wrap: break-word;
-    word-break: break-all;
+    color: #333333;
 }
+
+a {
+    color: #1976d2;
+}
+
+a:hover {
+    color: #0d47a1;
+}
+```
