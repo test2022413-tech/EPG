@@ -1,35 +1,18 @@
 ```css
-.container {
+body {
     background-color: #f5f7fa;
     color: #333333;
 }
 
-.content {
-    background-color: #ffffff;
-    border: 1px solid #e0e4e8;
-}
-
-.row {
-    border-bottom: 1px solid #e0e4e8;
-}
-
-.row:last-child {
-    border-bottom: none;
-}
-
-.left {
+h2 {
     color: #1f4e79;
 }
 
-.right {
-    color: #333333;
+p {
+    color: #444444;
 }
 
-a {
-    color: #1976d2;
-}
-
-a:hover {
-    color: #0d47a1;
+b {
+    color: #1f4e79;
 }
 ```
